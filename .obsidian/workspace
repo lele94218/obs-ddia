@@ -1,0 +1,89 @@
+{
+  "main": {
+    "id": "46f40a816b15ae1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d229053551c1b63f",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "95b113cfe313471b",
+    "type": "split",
+    "children": [
+      {
+        "id": "38a5898861218d08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2736d89ce6b818a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "eae81e28c3c5fd14",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aabe965971dda52b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a73efc92f8866cf6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df162c098ab839e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d229053551c1b63f",
+  "lastOpenFiles": [
+    "Data Models.md"
+  ]
+}
