@@ -171,3 +171,46 @@ annotation-target: Books/designing-data-intensive-applications.pdf
 >%%TAGS%%
 >
 ^l5wklcezd6
+
+
+>%%
+>```annotation-json
+>{"created":"2024-12-17T06:16:46.112Z","text":"storage locality","updated":"2024-12-17T06:16:46.112Z","document":{"title":"Designing Data-Intensive Applications","link":[{"href":"urn:x-pdf:f4030ab3256cbd6de727d8a4f1de8630"},{"href":"vault:/Books/designing-data-intensive-applications.pdf"}],"documentFingerprint":"f4030ab3256cbd6de727d8a4f1de8630"},"uri":"vault:/Books/designing-data-intensive-applications.pdf","target":[{"source":"vault:/Books/designing-data-intensive-applications.pdf","selector":[{"type":"TextPositionSelector","start":132502,"end":133005},{"type":"TextQuoteSelector","exact":"A  document  is  usually  stored  as  a  single  continuous  string,  encoded  as  JSON,  XML,or  a  binary  variant  thereof  (such  as  MongoDB’s  BSON).  If  your  application  oftenneeds to access the entire document (for example, to render it on a web page), there isa performance advantage to this storage locality. If data is split across multiple tables,like  in  Figure  2-1,  multiple  index  lookups  are  required  to  retrieve  it  all,  which  mayrequire more disk seeks and take more time","prefix":"pter 4.Data locality for queries","suffix":".The  locality  advantage  only "}]}]}
+>```
+>%%
+>*%%PREFIX%%pter 4.Data locality for queries%%HIGHLIGHT%% ==A  document  is  usually  stored  as  a  single  continuous  string,  encoded  as  JSON,  XML,or  a  binary  variant  thereof  (such  as  MongoDB’s  BSON).  If  your  application  oftenneeds to access the entire document (for example, to render it on a web page), there isa performance advantage to this storage locality. If data is split across multiple tables,like  in  Figure  2-1,  multiple  index  lookups  are  required  to  retrieve  it  all,  which  mayrequire more disk seeks and take more time== %%POSTFIX%%.The  locality  advantage  only*
+>%%LINK%%[[#^dy48yw0i3df|show annotation]]
+>%%COMMENT%%
+>storage locality
+>%%TAGS%%
+>
+^dy48yw0i3df
+
+
+
+>%%
+>```annotation-json
+>{"created":"2024-12-18T01:26:43.068Z","updated":"2024-12-18T01:26:43.068Z","document":{"title":"Designing Data-Intensive Applications","link":[{"href":"urn:x-pdf:f4030ab3256cbd6de727d8a4f1de8630"},{"href":"vault:/Books/designing-data-intensive-applications.pdf"}],"documentFingerprint":"f4030ab3256cbd6de727d8a4f1de8630"},"uri":"vault:/Books/designing-data-intensive-applications.pdf","target":[{"source":"vault:/Books/designing-data-intensive-applications.pdf","selector":[{"type":"TextPositionSelector","start":133922,"end":134160},{"type":"TextQuoteSelector","exact":"For  example,  Google’s  Spanner  database  offersthe  same  locality  properties  in  a  relational  data  model,  by  allowing  the  schema  todeclare  that  a  table’s  rows  should  be  interleaved  (nested)  within  a  parent  table ","prefix":"ted  to  the  document  model.  ","suffix":" [27].Oracle  allows  the  same,"}]}]}
+>```
+>%%
+>*%%PREFIX%%ted  to  the  document  model.%%HIGHLIGHT%% ==For  example,  Google’s  Spanner  database  offersthe  same  locality  properties  in  a  relational  data  model,  by  allowing  the  schema  todeclare  that  a  table’s  rows  should  be  interleaved  (nested)  within  a  parent  table== %%POSTFIX%%[27].Oracle  allows  the  same,*
+>%%LINK%%[[#^z6cdpbgwevq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^z6cdpbgwevq
+
+
+>%%
+>```annotation-json
+>{"created":"2024-12-18T01:26:59.750Z","updated":"2024-12-18T01:26:59.750Z","document":{"title":"Designing Data-Intensive Applications","link":[{"href":"urn:x-pdf:f4030ab3256cbd6de727d8a4f1de8630"},{"href":"vault:/Books/designing-data-intensive-applications.pdf"}],"documentFingerprint":"f4030ab3256cbd6de727d8a4f1de8630"},"uri":"vault:/Books/designing-data-intensive-applications.pdf","target":[{"source":"vault:/Books/designing-data-intensive-applications.pdf","selector":[{"type":"TextPositionSelector","start":134263,"end":134403},{"type":"TextQuoteSelector","exact":"The  column-family  concept  in  the  Bigtable  data  model  (used  in  Cassandra  andHBase) has a similar purpose of managing locality [29]","prefix":"e  index  cluster  tables  [28].","suffix":".We will also see more on locali"}]}]}
+>```
+>%%
+>*%%PREFIX%%e  index  cluster  tables  [28].%%HIGHLIGHT%% ==The  column-family  concept  in  the  Bigtable  data  model  (used  in  Cassandra  andHBase) has a similar purpose of managing locality [29]== %%POSTFIX%%.We will also see more on locali*
+>%%LINK%%[[#^7jxgl8493fl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^7jxgl8493fl
