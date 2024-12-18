@@ -122,6 +122,10 @@
   },
   "active": "77fb06f025960439",
   "lastOpenFiles": [
+    "README.md",
+    "MongoDB.md",
+    "Google Spanner.md",
+    "Big Table.md",
     "Data Models.md",
     "DDIA Overview.md",
     "Books/C++ Concurrency in Action.pdf",
