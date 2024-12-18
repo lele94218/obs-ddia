@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f6ca6425698ba3a8",
+        "id": "1a8fcf4c72f9cb70",
         "type": "tabs",
         "children": [
           {
-            "id": "4387bf0d19e0c3c9",
+            "id": "77fb06f025960439",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
               "state": {
                 "file": "DDIA Overview.md"
-              },
-              "icon": "lucide-file",
-              "title": "DDIA Overview"
-            }
-          },
-          {
-            "id": "5f6f06e1fd28de6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DDIA Overview.md",
-                "mode": "preview",
-                "source": false
               },
               "icon": "lucide-file",
               "title": "DDIA Overview"
@@ -134,10 +120,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4387bf0d19e0c3c9",
+  "active": "77fb06f025960439",
   "lastOpenFiles": [
     "Data Models.md",
     "DDIA Overview.md",
+    "Books/C++ Concurrency in Action.pdf",
     "Books/designing-data-intensive-applications.pdf",
     "Books"
   ]
