@@ -13,10 +13,24 @@
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "DDIA Overview.md"
+                "file": "AAA - DDIA Overview.md"
               },
               "icon": "lucide-file",
-              "title": "DDIA Overview"
+              "title": "AAA - DDIA Overview"
+            }
+          },
+          {
+            "id": "cb53c94c65929ff1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MapReduce.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MapReduce"
             }
           }
         ]
@@ -122,14 +136,19 @@
   },
   "active": "64d51a8fcaeb4aa7",
   "lastOpenFiles": [
+    "Papers/spanner.pdf",
+    "Papers/bigtable-osdi06.pdf",
+    "AAA - DDIA Overview.md",
+    "MapReduce.md",
+    "AAA - C++ Concurrency.md",
+    "Books/C++ Concurrency in Action.pdf",
+    "Papers",
+    "Data Models.md",
     "Books/designing-data-intensive-applications.pdf",
-    "DDIA Overview.md",
     "README.md",
     "MongoDB.md",
     "Google Spanner.md",
     "Big Table.md",
-    "Data Models.md",
-    "Books/C++ Concurrency in Action.pdf",
     "Books"
   ]
 }

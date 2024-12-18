@@ -214,3 +214,73 @@ annotation-target: Books/designing-data-intensive-applications.pdf
 >%%TAGS%%
 >
 ^7jxgl8493fl
+
+
+>%%
+>```annotation-json
+>{"created":"2024-12-18T05:52:25.583Z","updated":"2024-12-18T05:52:25.583Z","document":{"title":"Designing Data-Intensive Applications","link":[{"href":"urn:x-pdf:f4030ab3256cbd6de727d8a4f1de8630"},{"href":"vault:/Books/designing-data-intensive-applications.pdf"}],"documentFingerprint":"f4030ab3256cbd6de727d8a4f1de8630"},"uri":"vault:/Books/designing-data-intensive-applications.pdf","target":[{"source":"vault:/Books/designing-data-intensive-applications.pdf","selector":[{"type":"TextPositionSelector","start":139519,"end":139695},{"type":"TextQuoteSelector","exact":"Imperative code is very hard to parallelize across mul‐tiple cores and multiple machines, because it specifies instructions that must be per‐formed  in  a  particular  order.  ","prefix":"rclock speeds than before [31]. ","suffix":"Declarative  languages  have  a "}]}]}
+>```
+>%%
+>*%%PREFIX%%rclock speeds than before [31].%%HIGHLIGHT%% ==Imperative code is very hard to parallelize across mul‐tiple cores and multiple machines, because it specifies instructions that must be per‐formed  in  a  particular  order.== %%POSTFIX%%Declarative  languages  have  a*
+>%%LINK%%[[#^3nssvg6v7cw|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3nssvg6v7cw
+
+
+>%%
+>```annotation-json
+>{"created":"2024-12-18T05:58:52.965Z","updated":"2024-12-18T05:58:52.965Z","document":{"title":"Designing Data-Intensive Applications","link":[{"href":"urn:x-pdf:f4030ab3256cbd6de727d8a4f1de8630"},{"href":"vault:/Books/designing-data-intensive-applications.pdf"}],"documentFingerprint":"f4030ab3256cbd6de727d8a4f1de8630"},"uri":"vault:/Books/designing-data-intensive-applications.pdf","target":[{"source":"vault:/Books/designing-data-intensive-applications.pdf","selector":[{"type":"TextPositionSelector","start":144253,"end":144428},{"type":"TextQuoteSelector","exact":"A limited form of MapReduce issupported  by  some  NoSQL  datastores,  including  MongoDB  and  CouchDB,  as  amechanism for performing read-only queries across many documents","prefix":"es, popularized by Google [33]. ","suffix":".MapReduce  in  general  is  des"}]}]}
+>```
+>%%
+>*%%PREFIX%%es, popularized by Google [33].%%HIGHLIGHT%% ==A limited form of MapReduce issupported  by  some  NoSQL  datastores,  including  MongoDB  and  CouchDB,  as  amechanism for performing read-only queries across many documents== %%POSTFIX%%.MapReduce  in  general  is  des*
+>%%LINK%%[[#^rw820ghg79|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^rw820ghg79
+
+
+>%%
+>```annotation-json
+>{"created":"2024-12-18T05:59:23.136Z","text":"Revisit mapreduce","updated":"2024-12-18T05:59:23.136Z","document":{"title":"Designing Data-Intensive Applications","link":[{"href":"urn:x-pdf:f4030ab3256cbd6de727d8a4f1de8630"},{"href":"vault:/Books/designing-data-intensive-applications.pdf"}],"documentFingerprint":"f4030ab3256cbd6de727d8a4f1de8630"},"uri":"vault:/Books/designing-data-intensive-applications.pdf","target":[{"source":"vault:/Books/designing-data-intensive-applications.pdf","selector":[{"type":"TextPositionSelector","start":144429,"end":144504},{"type":"TextQuoteSelector","exact":"MapReduce  in  general  is  described  in  more  detail  in  Chapter  10.  ","prefix":"y queries across many documents.","suffix":"For  now,  we’ll  justbriefly di"}]}]}
+>```
+>%%
+>*%%PREFIX%%y queries across many documents.%%HIGHLIGHT%% ==MapReduce  in  general  is  described  in  more  detail  in  Chapter  10.== %%POSTFIX%%For  now,  we’ll  justbriefly di*
+>%%LINK%%[[#^6q99ycrj5im|show annotation]]
+>%%COMMENT%%
+>Revisit mapreduce
+>%%TAGS%%
+>
+^6q99ycrj5im
+
+
+>%%
+>```annotation-json
+>{"created":"2024-12-18T06:03:21.743Z","updated":"2024-12-18T06:03:21.743Z","document":{"title":"Designing Data-Intensive Applications","link":[{"href":"urn:x-pdf:f4030ab3256cbd6de727d8a4f1de8630"},{"href":"vault:/Books/designing-data-intensive-applications.pdf"}],"documentFingerprint":"f4030ab3256cbd6de727d8a4f1de8630"},"uri":"vault:/Books/designing-data-intensive-applications.pdf","target":[{"source":"vault:/Books/designing-data-intensive-applications.pdf","selector":[{"type":"TextPositionSelector","start":147947,"end":148142},{"type":"TextQuoteSelector","exact":"They must be pure functions, which means they only use the data that is passed tothem  as  input,  they  cannot  perform  additional  database  queries,  and  they  must  nothave any side effects","prefix":"what  they  are  allowed  todo. ","suffix":". These restrictions allow the d"}]}]}
+>```
+>%%
+>*%%PREFIX%%what  they  are  allowed  todo.%%HIGHLIGHT%% ==They must be pure functions, which means they only use the data that is passed tothem  as  input,  they  cannot  perform  additional  database  queries,  and  they  must  nothave any side effects== %%POSTFIX%%. These restrictions allow the d*
+>%%LINK%%[[#^5xbxxz529l7|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^5xbxxz529l7
+
+
+>%%
+>```annotation-json
+>{"created":"2024-12-18T06:18:03.798Z","updated":"2024-12-18T06:18:03.798Z","document":{"title":"Designing Data-Intensive Applications","link":[{"href":"urn:x-pdf:f4030ab3256cbd6de727d8a4f1de8630"},{"href":"vault:/Books/designing-data-intensive-applications.pdf"}],"documentFingerprint":"f4030ab3256cbd6de727d8a4f1de8630"},"uri":"vault:/Books/designing-data-intensive-applications.pdf","target":[{"source":"vault:/Books/designing-data-intensive-applications.pdf","selector":[{"type":"TextPositionSelector","start":205656,"end":205940},{"type":"TextQuoteSelector","exact":"We  call  this  format  Sorted  String  Table,  or  SSTable  for  short.  We  also  require  thateach key only appears once within each merged segment file (the compaction processalready  ensures  that).  SSTables  have  several  big  advantages  over  log  segments  withhash indexes","prefix":"t we’ll get to that in a moment.","suffix":":1. Merging  segments  is  simpl"}]}]}
+>```
+>%%
+>*%%PREFIX%%t we’ll get to that in a moment.%%HIGHLIGHT%% ==We  call  this  format  Sorted  String  Table,  or  SSTable  for  short.  We  also  require  thateach key only appears once within each merged segment file (the compaction processalready  ensures  that).  SSTables  have  several  big  advantages  over  log  segments  withhash indexes== %%POSTFIX%%:1. Merging  segments  is  simpl*
+>%%LINK%%[[#^r3pnw39mol|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^r3pnw39mol
